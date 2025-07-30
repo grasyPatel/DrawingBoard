@@ -1,8 +1,11 @@
 import React from 'react'
+import Real from '../components/Real'
 
 const RealTimeMode = () => {
   return (
-    <div>RealTimeMode</div>
+    <>
+    <Real />
+    </>
   )
 }
 
