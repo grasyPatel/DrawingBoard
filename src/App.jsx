@@ -6,14 +6,18 @@ import JoinRoom from "./pages/JoinRoom";
 
 const App = () => {
   return (
+   
+    
     <BrowserRouter>
       <Routes>
+       
         <Route path="/" element={<TestMode />} />
-        <Route path="/collab-mode" element={<CollabMode />} />
+        <Route path="/collab-mode/:roomId" element={<CollabMode />} />
         <Route path="/realtime-mode" element={<JoinRoom/>} />
         <Route path="/realtime-mode/:roomId" element={<RealTimeMode />} />
       </Routes>
     </BrowserRouter>
+    
   );
 };
 

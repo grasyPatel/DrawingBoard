@@ -1,8 +1,11 @@
 import React from 'react'
+import Collab from '../components/Collab'
 
 const CollabMode = () => {
   return (
-    <div>CollabMode</div>
+   <>
+   <Collab />
+   </>
   )
 }
 
